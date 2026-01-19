@@ -1,0 +1,17 @@
+[
+    {
+        "id": 101,
+        "title": "记录和归档：为 CLI 添加自动追踪日志功能",
+        "body": "请在仓库中实现自动生成跟踪日志的能力，包含模块、文档与示例。",
+        "labels": [
+            "enhancement"[
+                {
+                    "id": 101,
+                    "title": "为仓库添加自动跟踪日志功能与说明",
+                    "body": "## Problem\n当前仓库缺乏统一的运行时跟踪日志，难以在本地或 CI 中追踪命令执行与错误。\n\n## Proposed Solution\n在 `repo/` 下实现一个轻量的跟踪模块，并补齐文档：`repo/src/tracing.py`、`repo/src/trace_utils.py`、`repo/docs/TRACE_LOG.md`，以及在 CLI 中集成 `TRACE_LOG_PATH` 与 `--dump-traces` 功能。\n\n## Benefits\n- 提高可追溯性，便于排查与审计\n- 提供可复用的 JSONL 跟踪格式，便于后续分析与聚合\n\n标签：label documentation、tracking log、documentation",
+                    "labels": [
+                        "enhancement",
+                        "documentation"
+                    ]
+                }
+            ]

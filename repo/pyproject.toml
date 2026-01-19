@@ -1,0 +1,7 @@
+[tool.poetry]
+name = "auto-tracking-cn"
+version = "0.1.0"
+description = "示例仓库：自动跟踪日志任务"
+
+[tool.poetry.dependencies]
+python = "^3.8"
